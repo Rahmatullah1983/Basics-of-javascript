@@ -31,11 +31,30 @@ alert (age - 20);
 alert (age *20);
 alert (age / 20);
 alert (age % 20);
+//for respover 20
+alert (age **20)
 //if we add 1 to age
 age ++;
 //if we want to sustract 1 from age
 age --;
 //if we want to add a larger number to age
+age +=20;
+// parimitive data types
+
+//Numbers
+const day =5;
+//Strings
+const name ="Rahmatullah";
+//Booleans
+const isLogged = false;
+//Unidentified
+let day;
+//Null
+let minute = Null;
+//symbol
+const name =symbol();
+
+
 
 
 

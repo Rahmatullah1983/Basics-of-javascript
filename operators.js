@@ -1,0 +1,10 @@
+let a =50;
+alert( a+5);
+alert( a-5);
+alert( a*5);
+alert( a/5);
+alert( a%5);
+alert( a**5);
+alert(a++);
+alert(a--);
+alert( a+=20);

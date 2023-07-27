@@ -26,5 +26,5 @@ function max(n1, n2){
         return n2/10;
     }
 }
-let y = max(2, 3);
+let y = max(10, 3);
 console.log (y);

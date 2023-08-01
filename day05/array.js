@@ -1,12 +1,17 @@
-const ListUsers = ['Ali', 'Ahmed', 'saqib', 'Ayan']
-console.log(ListUsers[0])
-console.log(typeof ListUsers);
-console.log(ListUsers);
-console.log(ListUsers.lenth);
-ListUsers.push('New');
-console.log(ListUsers);
-ListUsers.shift();
-console.log(ListUsers);
-ListUsers.unshift('Ali');
-console.log(ListUsers);
-console.log(ListUsers.indexOf('saqib'));
+const listUsers = ['Ali', 'Ahmed', 'saqib', 'Ayan']
+console.log(listUsers[0])
+console.log(typeof listUsers);
+console.log(listUsers);
+console.log(listUsers.lenth);
+listUsers.push('New');
+console.log(listUsers);
+listUsers.shift();
+console.log(listUsers);
+listUsers.unshift('Ali');
+console.log(listUsers);
+console.log(listUsers.indexOf('saqib'));
+console.log(listUsers[3]);
+let city = [ 'Karachi', 'Nawabshah', 'Bandhi', 'Lahore']
+console.log(typeof city);
+console.log(city);
+console.log(city[3]);

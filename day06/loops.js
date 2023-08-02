@@ -1,4 +1,21 @@
-//forloops
+//while loop
+let b =4;
+while(b<=40){
+    console.log(b);
+    b+=4;
+}
+//do while loop runs any how ones
+let c =10;
+    do{
+        console.log(c);
+        b+=4;
+    }
+    while(c<=3);
+
+//for loop
+for(d=0; d<5; d++){
+    console.log(d);
+}
 let week =[ 'Saturday', 'Sundy', 'Monday','tuesday', 'wednesday','thursday', 'Friday', ]
 for (a = 0; a <=week.length; a++){
     console.log(week[a]);
@@ -9,6 +26,23 @@ for (a = 0; a <=week.length; a++){
        
     }
 }
+
+    //forEach loop
+    //spesfic for arrys
+    let day=['Monday', 'Teusday','Wednsday','Thursday','Friday','Saturday'];
+
+    day.forEach(function(item, index){
+        console.log( 'day '+index+' is '+ item);
+    });
+    
+
+    const names = [ 'Ali', 'Ahmed', 'Adnan', 'Babar']
+
+names.forEach(function(name,index) {
+    console.log(index, name);
+})
+    //for of loop
+
 const names = [ 'Ali', 'Ahmed', 'Adnan', 'Babar']
 
 for(let name of names){
@@ -17,11 +51,7 @@ for(let name of names){
 }
         
     
-    //spesfic for arrys
-
-names.forEach(function(name,index) {
-    console.log(index, name);
-})
+    
 const subjects = [ 'Maths', 'English', 'Urdu', 'science', 'sindhi']
 for(a=0; a<= subjects.length; a++){
     
